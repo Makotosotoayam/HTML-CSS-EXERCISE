@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+<style>
+  .box{
+    border-radius: 2px;
+    width: 200px;
+    height: 30px;
+    display: block; 
+    margin-bottom: 5px;
+  }
+
+  .box_two{
+    border-radius: 2px;
+    width: 200px;
+    height: 30px;
+  }
+
+  .button_satu{
+    width: 50px;
+    vertical-align: middle;
+  }
+
+  .button_dua{
+    width: 50px;
+    vertical-align: middle;
+  }
+
+
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .google_logo {
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  .textbox_google {
+  border-radius: 20px;
+  width: 300px;
+  height: 30px;
+  box-shadow: 2px 3px 3px #847d7d;
+  padding-left: 15px;
+}
+
+  .challenge_d{
+    height: 20px;
+    padding: 10px;
+    border-radius: 5px;    
+    padding-left: 15px;
+  }
+  .email{
+    width: 345px;
+    padding: 10px;
+    border-radius: 5px;    
+    padding-left: 15px;
+    display: flex;
+    margin-top: 5px;
+  }
+  .tombol{
+    width: 375px;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgb(47, 72, 238);
+    color: white;
+    border-radius: 5px;
+  }
+
+  .text{
+    background-color: #ddd5d5;
+    margin-bottom: 8px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    width: 30%;
+    padding: 15px;
+    display: flex;
+  }
+
+  .request_button{
+    background-color:black ;
+    color: white;
+  }
+  .schedule{
+    background-color: #ddd5d5;
+  }
+
+  .button_setting{
+    justify-content: left;
+    display: flex;
+    gap: 10px;
+  }
+  .button_setting button{
+    padding: 15px 20px;
+    flex: 1;
+    justify-content: center;
+    border: none;
+    min-width: 100px;
+    margin-top: 20px;
+    max-width: 200px;
+  }
+</style>
+
+</body>
+
+<h3> Lesson 8 | 8a </h3>
+
+<input type="text" class="box" placeholder="Name">
+
+<input type="text" class="box_two" placeholder="Email">
+<br><br>
+
+<h3> Lesson 8 | 8b </h3>
+<p style="display: inline-block; margin-right: 10px;" >
+  Thanks for chatting with our customer support. Would you like to take our quick surver?
+</p>
+
+<button type="button" class="button_satu" >Yes</button>
+<button type="button" class="button_dua" >No</button>
+
+<h3> Lesson 8 | 8c </h3>
+
+<div class="search-container">
+  <img src="google logo.jpg" alt="Google Logo" class="google_logo">
+  <input type="text" class="textbox_google" placeholder="Search Google or type a URL">
+</div>
+
+<h3> Lesson 8 | 8d. Sing up form</h3>
+<div class="all">
+  <input type="text" class="challenge_d" placeholder="First name">
+  <input type="text" class="challenge_d" placeholder="First name">
+  <input type="text" class="email" placeholder="Email">
+  <button type="button" class="tombol"><b>Sign Up</b></button>
+</div>
+<br>
+
+<h3>8e. Uber request-a-ride form</h3>
+
+
+<font face="arial">
+  <h1>Request a ride now</h1>
+
+  <input type="text"  class="text" placeholder="Enter pickup location">
+  <input type="text"  class="text" placeholder="Enter destination">
+
+  <div class="button_setting">  
+    <button class="request_button">Request now</button>
+    <button class="schedule">Schedule for later</button>
+  </div>
+
+</font>
+</html>
